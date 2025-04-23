@@ -12,6 +12,7 @@ import {
     useColorModeValue,
 } from '@chakra-ui/react'
 import WaitlistForm from './WaitlistForm'
+import FeaturePreview from './FeaturePreview'
 
 export default function Hero() {
     return (
@@ -59,15 +60,7 @@ export default function Hero() {
                         direction={{ base: 'column', sm: 'row' }}
                     >
                         <WaitlistForm />
-                        <Button
-                            rounded={'full'}
-                            size={'lg'}
-                            fontWeight={'normal'}
-                            px={6}
-                            leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}
-                        >
-                            Preview Features
-                        </Button>
+                        <FeaturePreview />
                     </Stack>
                 </Stack>
                 <Flex

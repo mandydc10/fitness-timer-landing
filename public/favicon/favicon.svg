@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="24" height="24"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#40A0AF">
+    <path d="M12 5C7.48 5 3 9.48 3 15s4.48 10 10 10 10-4.48 10-10S16.52 5 12 5zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+    <path d="M12.5 10v5.27l4.15 2.44.5-.87-3.65-2.15V10z"></path>
+    <circle cx="12" cy="15" r="1.5"></circle>
+    <rect x="7" y="1" width="7" height="2"></rect>
+    <circle cx="12" cy="0.8" r="1.2"></circle>
+    <circle cx="7.5" cy="0.8" r="0.9"></circle>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
