@@ -7,7 +7,6 @@ import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
-import ThankYou from './pages/ThankYou'
 
 function MainContent() {
   return (
@@ -16,6 +15,7 @@ function MainContent() {
       <Features />
       <HowItWorks />
       <CallToAction />
+      <Footer />
     </>
   )
 }
@@ -32,7 +32,6 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<MainContent />} />
-            <Route path="/thank-you" element={<ThankYou />} />
           </Routes>
         </Box>
       </Router>
